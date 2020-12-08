@@ -8,10 +8,9 @@ jobs:
     runs-on: ubuntu-18.04
     name: hello-actions
     steps:
-      - name: Checkout master
-      - uses: actions/checkout@v1
+      - name: Checkout Master
+        uses: actions/checkout@v1
 
       - name: Cat text
-      - run: |
+        run: |
           cat text
-      
